@@ -2,7 +2,7 @@
 <CallCenter xmlns="http://soap.sforce.com/2006/04/metadata">
     <adapterUrl>/apex/demoAdapterPage</adapterUrl>
     <customSettings>{&quot;reqTimeout&quot;:&quot;10000&quot;,&quot;reqStandbyUrl&quot;:&quot;/apex/demoAdapterPage2&quot;,&quot;reqSoftphoneHeight&quot;:&quot;550&quot;,&quot;reqSoftphoneWidth&quot;:&quot;400&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSalesforceCompatibilityMode&quot;:&quot;Classic_and_Lightning&quot;}</customSettings>
-    <displayName>Demo Call Center Adapter</displayName>
+    <displayName>RC Call Center Adapter</displayName>
     <displayNameLabel>Display Name</displayNameLabel>
     <internalNameLabel>InternalName</internalNameLabel>
     <sections>

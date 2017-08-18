@@ -40,7 +40,7 @@ To deploy the code using ANT, you must add a custom domain to your Salesforce or
 
 2. Add a user to the Call Center. 
   * In Setup, enter Call Centers in the Quick find box, then click Call Centers. 
-  * Click the Edit next to the Demo Call Center Adapter and then click Manage Call Center Users. 
+  * Click the Edit next to the RC Call Center Adapter and then click Manage Call Center Users. 
   * Add any additional users that you want to use this demo adapter.
 
 3. Create a Lightning Experience app.
@@ -60,7 +60,7 @@ If you don’t see the softphone in your app or the softphone doesn’t launch, 
 
 1. In your Salesforce org, go to Setup and enter Call Centers in the Quick Find box, then click Call Centers.
 
-2. Click Edit next to the Demo Call Center Adapter and make sure that the CTI Adapter URL points to the absolute path of the Visualforce page called demoAdapterPage. The URL must include the Lightning path and your domain. For example, both of the following URLs are valid:
+2. Click Edit next to the RC Call Center Adapter and make sure that the CTI Adapter URL points to the absolute path of the Visualforce page called demoAdapterPage. The URL must include the Lightning path and your domain. For example, both of the following URLs are valid:
   * https://myDomain.my.salesforce.com/apex/demoAdapterPage
   * https://myDomain.lightning.instanceName.force.com/apex/demoAdapterPage
 
@@ -70,7 +70,7 @@ When the absolute URL doesn't work, open the chrome inspector look for an error 
 
 3. Click **Save**
 
-To change the phone number used to simulate incoming calls, edit the Simulated Incoming Phone Number field on the Demo Call Center Adapter page in Setup. The default phone number used to simulate incoming calls is 415-555-1212.
+To change the phone number used to simulate incoming calls, edit the Simulated Incoming Phone Number field on the RC Call Center Adapter page in Setup. The default phone number used to simulate incoming calls is 415-555-1212.
 
 ## CTI Provider Settings
 
