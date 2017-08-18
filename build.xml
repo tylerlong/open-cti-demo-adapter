@@ -1,3 +1,5 @@
+<!DOCTYPE project>
+
 <project name="DemoAdapter" default="deployCodeCheckOnly" basedir="." xmlns:sf="antlib:com.salesforce">
 
 	<condition property="propertiesFile" value="${properties}" else="build.properties">
